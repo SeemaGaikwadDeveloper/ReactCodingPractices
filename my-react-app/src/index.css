@@ -1,0 +1,77 @@
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px hsla(0,0%,0%,0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inlinw-block;
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: hsl(0,0%,20%);
+}
+
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10;
+  color: hsl(0,0%,40%);
+}
+
+.list-category{
+  font-size: 1.5em;
+  font-weight: bold;
+  color:aqua;
+  text-align: left;
+  border-radius: 5px;
+  background-color: burlywood;
+}
+
+.list-items li{
+  font-size: 1em;
+  list-style: none;
+  color:black;
+  text-align:lefft;
+  margin:0;
+}
+
+.list-items li:hover{
+  color:brown
+}
+
+.counter-container{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.count-display{
+  font-size: 3em;
+  margin-top:0;
+  margin-bottom: 30px;
+}
+.counter-button{
+  width: 100px;
+  height: 50px;
+  font-size:1em;
+  font-weight: bold;
+  margin:0px 5px;
+  background-color: aquamarine;
+  color:brown;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover{
+  background-color:bisque;
+}
